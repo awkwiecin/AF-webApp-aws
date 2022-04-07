@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF-webApp-aws", "AF-webApp-aws\AF-webApp-aws.csproj", "{5E1B307F-3172-40F0-95B9-FDD7E4853838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0113EFC7-E6FB-4A91-B96D-4B4E1A6E782F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E1B307F-3172-40F0-95B9-FDD7E4853838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1B307F-3172-40F0-95B9-FDD7E4853838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1B307F-3172-40F0-95B9-FDD7E4853838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1B307F-3172-40F0-95B9-FDD7E4853838}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4D265E-EF7B-4C6C-92A6-BE5396B6CF65}
+	EndGlobalSection
+EndGlobal
