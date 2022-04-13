@@ -3,6 +3,6 @@ echo "Initialize terraform..."
 terraform init
 echo "Plan infrastructure..."
 terraform plan
-#echo "Apply infrastructure..."
-#terraform apply
+echo "Apply infrastructure..."
+terraform apply
 
