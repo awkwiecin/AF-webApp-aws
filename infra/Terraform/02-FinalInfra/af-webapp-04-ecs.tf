@@ -1,3 +1,7 @@
+resource "aws_ecs_cluster" "ecs" {
+  name = "${var.user_prefix}-cluster"
+}
+
 resource "aws_ecs_task_definition" "service" {
   family             = "${var.user_prefix}-definition"
   cpu                = "1vcpu"

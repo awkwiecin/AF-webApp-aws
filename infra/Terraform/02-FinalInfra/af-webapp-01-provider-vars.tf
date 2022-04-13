@@ -10,6 +10,8 @@ terraform {
 provider "aws" {
   # Configuration options
   region = "eu-central-1"
+  access_key = "<>"
+  secret_key = "<>"
 }
 
 variable "vpc_id" {
