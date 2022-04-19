@@ -11,7 +11,7 @@ resource "aws_ecs_task_definition" "service" {
 
   container_definitions = jsonencode([
     {
-      name      = "hello-world-container"
+      name      = "${var.user_prefix}-container"
       image     = "${aws_ecr_repository.ecr.repository_url}:latest"
       cpu       = 1
       memory    = 512
